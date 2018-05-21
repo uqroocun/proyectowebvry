@@ -15,12 +15,12 @@
 
 <?PHP
 
-   define ("EUROPTS", "166.386");
+   define ("EUROPTS", "21");
 
    print ("<TABLE BORDER WIDTH='200'>\n");
    print ("<TR>\n");
    print ("   <TH>Euros</TH>\n");
-   print ("   <TH>Pesetas</TH>\n");
+   print ("   <TH>Pesos</TH>\n");
    print ("</TR>\n");
    for ($i=1; $i<=10; $i++)
    {
