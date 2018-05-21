@@ -1,9 +1,4 @@
-body {
-    background-image: url ("img/campin.png") ;
-    
-    background-color: black;
 
-}
 
 header{
     background: rgba(41, 203, 49,1);
@@ -62,17 +57,7 @@ button{
 a {
     color: black;
 }
-form {
 
-    font-family: Tahoma, Verdana, Arial, sans-serif;
- /* Sólo para centrar el formulario a la página */
-    margin: 1 auto;
-    width: 10px;
-    /* Para ver el borde del formulario */
-    padding: 10em;
-    border: 5px solid #CCC;
-    border-radius: 2em;
-}
 h1 {
     color: white;
 }
@@ -86,3 +71,49 @@ h2{
        color: white;
  
 }
+body  {font-family: verdana,arial, sans-serif;
+     font-size: 10pt;
+     background-color: blue;
+    }
+
+   H1 {font-size: 16pt;
+     font-weight: bold;
+      color: #0066CC;
+    }
+   H2 {font-size: 12pt;
+     font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+   H3 {font-size: 10pt;
+     font-weight: bold; 
+     color: black;
+    }
+
+   FORM.borde {
+       border: 1px dotted #0066CC;
+        padding: 0.5em 0.2em; 
+        width: 80%;
+    }
+   FORM P {
+       clear: left; 
+       margin: 0.2em;
+        padding: 0.1em;
+    }
+   FORM P LABEL {
+       float: left; 
+       width: 25%; 
+       font-weight: bold;
+    }
+   .error {
+       color: red;
+    }
+
+   TH {font-size: 10pt; 
+    font-weight: bold; color: white;
+     background: #0066CC;
+      text-align: left;
+    }
+   TD {font-size: 10pt;
+     background: #CCCCCC;
+    }
